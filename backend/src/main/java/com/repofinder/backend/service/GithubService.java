@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.repofinder.backend.client.GithubClient;
-import com.repofinder.backend.controller.RepositoryResponse;
-import com.repofinder.backend.controller.UserData;
-import com.repofinder.backend.controller.UserResponse;
+import com.repofinder.backend.model.RepositoryResponse;
+import com.repofinder.backend.model.UserData;
+import com.repofinder.backend.model.UserResponse;
 
 @Service
 public class GithubService {

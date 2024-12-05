@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.repofinder.backend.controller.RepositoryResponse;
-import com.repofinder.backend.controller.UserData;
+import com.repofinder.backend.model.RepositoryResponse;
+import com.repofinder.backend.model.UserData;
 
 @Component
 public interface GithubClient {
