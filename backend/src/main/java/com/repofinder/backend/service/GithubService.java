@@ -19,9 +19,7 @@ public class GithubService {
     }
 
     public UserResponse getUserWithRepositories(String username) {
-
         UserData userData = githubClient.getUser(username);
-
         List<RepositoryResponse> repositories = githubClient.listRepos(username);
 
         return new UserResponse(userData.login(), userData.htmlUrl(), repositories, repositories.size());
