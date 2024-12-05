@@ -1,9 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
 
 a {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   font-style: italic;
+=======
+@layer base {
+>>>>>>> 5a9445ebb8e3ccd40dd9397a3a9db69ce0ece126
 }
