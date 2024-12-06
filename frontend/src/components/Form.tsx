@@ -41,6 +41,7 @@ function Form() {
         </label>
 
         <input
+          required
           type="text"
           id="github-username"
           placeholder="Digite aqui"
