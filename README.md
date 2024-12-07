@@ -4,9 +4,9 @@ RepoFinder é uma aplicação minimalista e responsiva para pesquisar repositór
 
 ## 📋 Visão Geral
 
-Esta aplicação full-stack foi desenvolvida utilizando Java, React, Vite e TypeScript, com integração à API do GitHub.
+Esta aplicação full-stack foi desenvolvida utilizando Java, React e TypeScript, com integração à API do GitHub.
 
-> 🚀 Tecnologias utilizadas: **Java, Spring Boot, React, Vite, Tailwind CSS, TypeScript e Docker**
+> 🚀 Tecnologias utilizadas: **Java, Spring Boot, React, Vite, Tailwind CSS, TypeScript**
 
 ## 🎨 Funcionalidades
 
@@ -43,7 +43,6 @@ O projeto segue uma estrutura modular para fácil manutenção:
 
 - **components/**: Componentes reutilizáveis da interface.
 - **pages/**: Páginas da aplicação.
-- **Dockerfile**: Arquivo de configuração para o docker.
 
 ### **Back-end:**
 
@@ -52,7 +51,6 @@ O projeto segue uma estrutura modular para fácil manutenção:
 - **services/**: Integração com a API do GitHub.
 - **controller/**: Arquivo de configuração das rotas da api.
 - **model/**: Arquivos de definição das respostas das rotas da api.
-- **Dockerfile**: Arquivo de configuração para o docker.
 
 ## ✅ Requisitos
 
